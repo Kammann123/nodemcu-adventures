@@ -16,7 +16,7 @@ class Monitor():
     # Static parameters of configuration for the Oscilloscope
     OVERSAMPLING_FACTOR = 10
 
-    def __init__(self, ylim=(-12, 12), xlabel='X Label', ylabel='Y Label', title='Title', size=100):
+    def __init__(self, ylim=(-0.1, 1.1), xlabel='X Label', ylabel='Y Label', title='Title', size=200):
         # Configuration of the Oscilloscope monitor
         self.size = size
 

@@ -56,7 +56,7 @@ void appInit (void)
 
 	// Initialization of the UART driver
 	uart_cfg_t uartConfiguration = {
-			.baudRate 		= UART_BAUD_RATE_115200,
+			.baudRate 		= UART_BAUD_RATE_9600,
 			.parityEnable 	= 0,
 			.parityMode		= 0,
 			.stopMode		= 0,

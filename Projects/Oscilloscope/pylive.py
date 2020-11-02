@@ -14,7 +14,7 @@ def live_plotter(x_vec,y1_data,line1,identifier='',pause_time=0.1):
         line1, = ax.plot(x_vec,y1_data,'-o',alpha=0.8)        
         #update plot label/title
         plt.ylabel('Y Label')
-        plt.title('Title: {}'.format(identifier))
+        plt.title(' {}'.format(identifier))
         plt.show()
     
     # after the figure, axis, and line are created, we only need to update the y-data

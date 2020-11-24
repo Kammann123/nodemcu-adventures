@@ -36,6 +36,7 @@ class Oscilloscope():
                     data_array[Oscilloscope.BYTE_LENGTH - 1 - i] = 1 if data_frame & 0x01 > 0 else 0
                     data_frame = data_frame >> 1
                 
+
                 # Update oscilloscope print
                 self.monitor.add_data(data_array)
             except KeyboardInterrupt:
